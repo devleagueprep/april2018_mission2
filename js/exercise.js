@@ -1,81 +1,80 @@
 /*Congratulations Prepsters, you've been selected for another top secret mission. Should you choose to accept it, do a git fetch and a git pull to find your specific mission. After you complete your mission, commit your work and do a pull request.
 
+You will be using your DOM knowledge to manipulate the index.html file. 
+
+As always, should you be caught copy and pasta, the Secretary will disavow any knowledge of your actions. 
+
 This repo will self-destruct in five seconds. Good luck!*/
 
 /*Mission 1: 
 Team Member: 
 
-In the index.html file, target the div element with the id of 'name' and change the contents to: 'Tiger Express'
+Target the div element with the id of 'name' and change the contents to: 'Tiger Express'
 */
 
-company.innerHTML = 'Tiger Express';
 
  /*Mission 2: 
  Team Member: 
 
- In the index.html file, target the div element with the id of 'motto' and change the contents to:
+ Target the div element with the id of 'motto' and change the contents to:
  'The best Chinese food to wok yo world!'
  */
  
- motto.innerHTML = 'The best Chinese food to wok yo world!';
 
  /*Mission 3: 
  Team Member: 
 
-In the index.html file, target the first li element and change the content to: 'Our Food'
+ Target the first li element and change the content to: 'Our Food'
  */
 
-var liElem = document.getElementsByClassName('menu');
-liElem[0].innerHTML = 'Our Food';
- 
+
  /*Mission 4: 
  Team Member: 
 
- In the index.html file, change the layout of the li element from block to inline.
+ Change the layout of the li element from block to inline.
  */
 
-var liBox = document.getElementsByClassName('menu');
 
-for(var i = 0; i<liBox.length; i++){
-    liBox[i].style.display = "inline" 
-}
  /*Mission 5:
  Team Member: 
- In the index.html file, create a paragraph element, give it an id of 'food' and give it the following content: 'Orange Chicken' and append it into the div element with the id of 'specials'
+ Create a paragraph element, create an id of 'tangy', give it the following content: 'Orange Chicken' and append it into the div element with the id of 'specials' and change the font color to 'orangered'
  */
-
-var pElem = document.createElement('p');
-pElem.id = 'food';
-pElem.innerHTML = 'Orange Chicken';
-specials.appendChild(pElem);
 
 
  /*Mission 6:
  Team Member: 
 
- In the index.html file target the div element with the id of 'story' and change the content to: 'Brining hungry people together to share joy has been our family's inspiration.'
+ Create an image element and use the following link for your source:
+ http://www.quickneasyrecipes.net/wp-content/uploads/2012/09/Panda-Express-Orange-Chicken.jpg
+
+ Append this image element into div element with the id of 'specials'
  */
 
- story.innerHTML = "test"
  
  /*Mission 7:
  Team Member: 
 
- In the index.html file target the div element with the id of 'locate' and change the content to: 'Find A Tiger Express'
+ Target the header 2 element with the id of 'story' and change the content to: 'Bringing hungry people together to share joy has been our family's inspiration.' And change the font color to 'cornflowerblue'
  */
- 
- locate.innerHTML = 'Find A Tiger Express'
+
 
  /*Mission 8:
  Team Member: 
- */
  
+ Add the following link as a background image in the body element:
+ 'https://i.pinimg.com/originals/ab/05/e7/ab05e7969e42fea2249c18e9fe461188.jpg'
+ */
+
+
  /*Mission 9:
  Team Member:
- */
- 
- /*Mission 10:
- Team Member:
+
+ Target the div element with the id of 'locate' and change the content to: 'Find a Tiger Express in your area.'
  */
  
 
+ /*Mission 10:
+ Team Member:
+
+ Create a div element, create an id of 'designer', give it a content of: 'Copyright 2018 Gin Drinkers Association (GDA)' and append it to the footer element.
+ */
