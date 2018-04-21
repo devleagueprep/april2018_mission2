@@ -78,3 +78,9 @@ Target the div element with the id of 'name' and change the contents to: 'Tiger 
 
  Create a div element, create an id of 'designer', give it a content of: 'Copyright 2018 Gin Drinkers Association (GDA)' and append it to the footer element.
  */
+var footerElemE = document.getElementsByTagName('footer');
+
+var divElemE = document.createElement('div');
+divElemE.id = 'designer';
+divElemE.innerHTML = 'Copyright 2018 Gin Drinkers Association (GDA)';
+footerElemE[0].appendChild(divElemE);
