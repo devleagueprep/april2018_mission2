@@ -27,6 +27,12 @@ Target the div element with the id of 'name' and change the contents to: 'Tiger 
  Target the first li element and change the content to: 'Our Food'
  */
 
+var menuElems = document.getElementsByClassName('menu');
+
+menuElems[0].innerHTML = 'Our Food!';
+
+
+
 
  /*Mission 4: 
  Team Member: Erin
