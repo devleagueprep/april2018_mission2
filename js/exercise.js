@@ -33,8 +33,8 @@ Target the div element with the id of 'name' and change the contents to: 'Tiger 
 
  Change the layout of the li element from block to inline.
  */
-var liElem = document.getElementById("guide")
-liElem.style.display = "inline"
+var liElem = document.getElementById("guide");
+liElem.style.display = "inline";
 
  /*Mission 5:
  Team Member: Harsh
