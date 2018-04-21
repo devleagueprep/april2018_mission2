@@ -28,6 +28,12 @@ nameElem.innerHTML = 'Tiger Express';
  Target the first li element and change the content to: 'Our Food'
  */
 
+var menuElems = document.getElementsByClassName('menu');
+
+menuElems[0].innerHTML = 'Our Food!';
+
+
+
 
  /*Mission 4: 
  Team Member: Erin
