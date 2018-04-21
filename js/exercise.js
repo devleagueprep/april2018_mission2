@@ -9,7 +9,7 @@ This repo will self-destruct in five seconds. Good luck!*/
 /*Mission 1: 
 Team Member: Camille
 
-Target the div element with the id of 'name' and change the contents to: 'Tiger Express'
+Target the div element with the id of 'company' and change the contents to: 'Tiger Express'
 */
 
 
