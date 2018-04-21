@@ -76,6 +76,8 @@ specials.appendChild(imgEle);
  Add the following link as a background image in the body element:
  'https://i.pinimg.com/originals/ab/05/e7/ab05e7969e42fea2249c18e9fe461188.jpg'
  */
+var styleElem = document.createElement ("style");
+styleElem = document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/ab/05/e7/ab05e7969e42fea2249c18e9fe461188.jpg')"
 
 
  /*Mission 9:
