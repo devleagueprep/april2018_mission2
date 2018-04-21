@@ -11,7 +11,8 @@ Team Member: Camille
 
 Target the div element with the id of 'company' and change the contents to: 'Tiger Express'
 */
-
+var nameElem = document.getElementById('company');
+nameElem.innerHTML = 'Tiger Express';
 
  /*Mission 2: 
  Team Member: Valzey
