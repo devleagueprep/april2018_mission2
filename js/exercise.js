@@ -50,6 +50,12 @@ Target the div element with the id of 'name' and change the contents to: 'Tiger 
  Append this image element into div element with the id of 'specials'
  */
 
+ var imgEle = document.createElement("img");
+ imgEle.src = "http://www.quickneasyrecipes.net/wp-content/uploads/2012/09/Panda-Express-Orange-Chicken.jpg"
+// imgEle.innerHTML ="/http://www.quickneasyrecipes.net/wp-content/uploads/2012/09/Panda-Express-Orange-Chicken.jpg"; <-- This doesn't work
+specials.appendChild(imgEle);
+
+
  
  /*Mission 7:
  Team Member: Doug
