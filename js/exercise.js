@@ -39,6 +39,11 @@ Target the div element with the id of 'name' and change the contents to: 'Tiger 
  Team Member: Harsh
  Create a paragraph element, create an id of 'tangy', give it the following content: 'Orange Chicken' and append it into the div element with the id of 'specials' and change the font color to 'orangered'
  */
+var newPara = document.createElement('p');
+newPara.id = 'tangy';
+newPara.innerHTML = 'Orange Chicken';
+specials.appendChild(newPara);
+newPara.style.color = "orangered";
 
 
  /*Mission 6:
