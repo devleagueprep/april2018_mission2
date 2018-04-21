@@ -57,6 +57,9 @@ Target the div element with the id of 'name' and change the contents to: 'Tiger 
  Target the header 2 element with the id of 'story' and change the content to: 'Bringing hungry people together to share joy has been our family's inspiration.' And change the font color to 'cornflowerblue'
  */
 
+ var head2 = document.getElementById('story');
+ head2.innerHTML = "Bringing hungry people together to share joy has been our family's inspiration.";
+ head2.style.color = "cornflowerblue";
 
  /*Mission 8:
  Team Member: Cassandra
