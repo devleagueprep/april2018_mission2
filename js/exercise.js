@@ -9,9 +9,10 @@ This repo will self-destruct in five seconds. Good luck!*/
 /*Mission 1: 
 Team Member: Camille
 
-Target the div element with the id of 'name' and change the contents to: 'Tiger Express'
+Target the div element with the id of 'company' and change the contents to: 'Tiger Express'
 */
-
+var nameElem = document.getElementById('company');
+nameElem.innerHTML = 'Tiger Express';
 
  /*Mission 2: 
  Team Member: Valzey
@@ -27,6 +28,12 @@ Target the div element with the id of 'name' and change the contents to: 'Tiger 
  Target the first li element and change the content to: 'Our Food'
  */
 
+var menuElems = document.getElementsByClassName('menu');
+
+menuElems[0].innerHTML = 'Our Food!';
+
+
+
 
  /*Mission 4: 
  Team Member: Erin
@@ -40,6 +47,11 @@ liElem.style.display = "inline";
  Team Member: Harsh
  Create a paragraph element, create an id of 'tangy', give it the following content: 'Orange Chicken' and append it into the div element with the id of 'specials' and change the font color to 'orangered'
  */
+var newPara = document.createElement('p');
+newPara.id = 'tangy';
+newPara.innerHTML = 'Orange Chicken';
+specials.appendChild(newPara);
+newPara.style.color = "orangered";
 
 
  /*Mission 6:
@@ -51,6 +63,12 @@ liElem.style.display = "inline";
  Append this image element into div element with the id of 'specials'
  */
 
+ var imgEle = document.createElement("img");
+ imgEle.src = "http://www.quickneasyrecipes.net/wp-content/uploads/2012/09/Panda-Express-Orange-Chicken.jpg"
+// imgEle.innerHTML ="/http://www.quickneasyrecipes.net/wp-content/uploads/2012/09/Panda-Express-Orange-Chicken.jpg"; <-- This doesn't work
+specials.appendChild(imgEle);
+
+
  
  /*Mission 7:
  Team Member: Doug
@@ -58,6 +76,9 @@ liElem.style.display = "inline";
  Target the header 2 element with the id of 'story' and change the content to: 'Bringing hungry people together to share joy has been our family's inspiration.' And change the font color to 'cornflowerblue'
  */
 
+ var head2 = document.getElementById('story');
+ head2.innerHTML = "Bringing hungry people together to share joy has been our family's inspiration.";
+ head2.style.color = "cornflowerblue";
 
  /*Mission 8:
  Team Member: Cassandra
@@ -65,6 +86,8 @@ liElem.style.display = "inline";
  Add the following link as a background image in the body element:
  'https://i.pinimg.com/originals/ab/05/e7/ab05e7969e42fea2249c18e9fe461188.jpg'
  */
+var styleElem = document.createElement ("style");
+styleElem = document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/ab/05/e7/ab05e7969e42fea2249c18e9fe461188.jpg')"
 
 
  /*Mission 9:
@@ -79,3 +102,9 @@ liElem.style.display = "inline";
 
  Create a div element, create an id of 'designer', give it a content of: 'Copyright 2018 Gin Drinkers Association (GDA)' and append it to the footer element.
  */
+var footerElemE = document.getElementsByTagName('footer');
+
+var divElemE = document.createElement('div');
+divElemE.id = 'designer';
+divElemE.innerHTML = 'Copyright 2018 Gin Drinkers Association (GDA)';
+footerElemE[0].appendChild(divElemE);
