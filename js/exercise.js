@@ -41,7 +41,7 @@ menuElems[0].innerHTML = 'Our Food!';
  Change the layout of the li element from block to inline.
  */
 var liElem = document.getElementById("guide");
-liElem.style.display = "inline";
+liElem.style.display = inline;
 
  /*Mission 5:
  Team Member: Harsh
